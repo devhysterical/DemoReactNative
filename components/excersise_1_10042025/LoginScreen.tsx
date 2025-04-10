@@ -1,4 +1,7 @@
-import React, {useState} from 'react';
+// Họ và Tên: Lâm Tuấn Kiệt
+// MSSV: 2124802010307
+
+import React, { useState } from 'react';
 import {
   View,
   Text,
@@ -77,7 +80,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
-    // backgroundColor: 'rgba(255, 255, 255, 0.8)', // Lớp phủ mờ
     borderRadius: 10,
     margin: 20,
   },
