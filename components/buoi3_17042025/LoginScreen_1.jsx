@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {View, StyleSheet, Image, Alert} from 'react-native';
 import {TextInput, Button, Text, HelperText} from 'react-native-paper';
-import {useNavigation, useRoute} from '@react-navigation/native';
+import {useNavigation, useRoute, CommonActions} from '@react-navigation/native';
 
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const passwordRegex = /^.{8,}$/;
@@ -45,23 +45,21 @@ const LoginScreen = () => {
     }
 
     if (isValid) {
-      if (registeredEmail && email === registeredEmail) {
-        Alert.alert(
-          'Login Successful',
-          `Welcome back, ${email}! (Logged in after registration)`,
-          [{text: 'OK'}],
+      const isLoginSuccessful = true;
+
+      if (isLoginSuccessful) {
+        console.log('Login successful for:', email);
+        navigation.dispatch(
+          CommonActions.reset({
+            index: 0,
+            routes: [{name: 'MainApp'}],
+          }),
         );
       } else {
-        console.log(
-          'Login attempt with (no recent registration match):',
-          email,
-          password,
-        );
-        Alert.alert(
-          'Login Failed',
-          'Incorrect email or password.', // Thông báo chung
-          [{text: 'OK'}],
-        );
+        console.log('Login failed for:', email);
+        Alert.alert('Login Failed', 'Incorrect email or password.', [
+          {text: 'OK'},
+        ]);
       }
     }
   };

@@ -2,6 +2,10 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
+# Video demo
+
+[![Xem Demo Excersise 4 - 24042025]](https://github.com/user-attachments/assets/4a2e99ad-d05e-4726-b2f6-b53e14748ba7)
+
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
 ## Step 1: Start Metro
