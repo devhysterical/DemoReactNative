@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "865411407914",
+    "project_id": "demoreactnative-a3e5e",
+    "storage_bucket": "demoreactnative-a3e5e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865411407914:android:ab17b803c664ceccc82353",
+        "android_client_info": {
+          "package_name": "com.demoreactnative"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgMk5uX6Zqs2Uo1YFh81Fev0l-wnvkOCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
