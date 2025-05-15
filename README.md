@@ -4,6 +4,10 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Video demo
 
+**BÀI GIỮA KÌ Ngày 15/05/2025**
+
+[![Xem Demo BÀI GIỮA KÌ]](https://github.com/user-attachments/assets/8bf16bcc-4242-4296-a34d-093498e4dd83)
+
 **ToDoApp Ngày 08/05/2025**
 
 [![Xem Demo ToDoApp]](https://github.com/user-attachments/assets/fb342dd7-53da-4414-b1b5-8abc61871197)
